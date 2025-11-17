@@ -1,0 +1,56 @@
+    /* .header {
+        background-color: aqua;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+    } */
+
+    /* reset list and make nav horizontal with gap */
+    .nav-list {
+        list-style: none;
+        margin: 0;}
+        .header {
+            background-color: aqua;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        /* reset list and make nav horizontal with gap */
+        .nav-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px; /* spacing between nav items */
+        }
+
+        .nav-list li a {
+            color: inherit;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav-list li a:hover {
+            text-decoration: underline;
+        }
+
+        /* stack nav vertically on small screens */
+        @media (max-width: 520px) {
+            .nav-list {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+
+        /* visible focus for keyboard users */
+        .nav-list li a:focus {
+            outline: 3px solid rgba(0,0,0,0.2);
+            outline-offset: 3px;
+        }

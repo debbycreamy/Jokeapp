@@ -1,0 +1,91 @@
+
+.joke-container {
+  min-height: 100vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+
+.joke-card {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.setup {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.punchline {
+  font-size: 16px;
+  color: #555;
+}
+
+
+.loading {
+  color: #777;
+  font-size: 16px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+
+.new-joke {
+  background: #2c74d8;
+  color: white;
+}
+
+.new-joke:hover {
+  background: #1f5cb1;
+}
+
+
+.like {
+  background: #ffdd57;
+  color: #222;
+}
+
+.like:hover {
+  background: #f3c63f;
+}
+
+
+.likes {
+  margin-top: 15px;
+  font-weight: 600;
+}
+/* nav{
+    background-color: aqua;
+
+} */
