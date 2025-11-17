@@ -33,7 +33,6 @@ const JokeApp = () => {
       
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/Contact">Contact</Link>
       </nav>
 
       <div className="joke-container">
