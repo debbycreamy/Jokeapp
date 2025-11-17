@@ -7,7 +7,9 @@ import UseState1 from './Usestate/UseState1'
 import Ausestate from './AssUsestate/Ausestate'  
 import UseEffect1 from './UseEffect/UseEffect1'
 import Form1 from './Form/Form1'
-import JokeApp from './pages/aboutPage/Jokeapp'
+import JokeApp from "./pages/aboutPage/JokeApp_temp.jsx";
+
+
 
 
 const App = () => {
