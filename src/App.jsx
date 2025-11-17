@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './pages/Header/Header'
-import Contact from './pages/contactPage/contact'
+import Contact from './pages/contactPage/Contact'
 import Card from './CardProps/Card'
 import { BrowserRouter, Link,Routes,Route } from 'react-router-dom'
 import UseState1 from './Usestate/UseState1'  
